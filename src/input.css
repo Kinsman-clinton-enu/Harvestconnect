@@ -59,7 +59,6 @@
 header{
   background-position: center;
   background-size: cover;
-  background-color:  #4ade80;
 }
 
 
@@ -77,12 +76,7 @@ header{
 
 
 
-.signup-section{
-  
-  background-position: center;
-  background-size: cover;
-  background-color: 1px solid #4ade80;
-}
+
 
 .upload-img-container{
   width: 700px;
