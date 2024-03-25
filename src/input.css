@@ -18,11 +18,7 @@
   .mobile-navbar{
     display: block;
   }
-  #hero{
-    
-    background-position: center;
-    background-size: cover;
-  }
+ 
   .product-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -52,14 +48,6 @@
   }
 }
 
-
-
-
-
-header{
-  background-position: center;
-  background-size: cover;
-}
 
 
 @media (min-width: 850px) {
