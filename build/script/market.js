@@ -13,7 +13,7 @@ function addHtml(firstIndex, lastIndex){
   products.slice(firstIndex, lastIndex).forEach(product =>{  
     
     productHtml +=  `     
-      <div class="cart">
+      <div class="cart dark:bg-gray-700">
           <div class="produc-img-wrapper relative">
              <img class="product-img" src="./img/${product.image}" alt="">
              <img class="absolute top-0" src"./img/menu_vertical_24px.png">
