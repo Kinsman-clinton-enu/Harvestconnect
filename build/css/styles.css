@@ -2143,6 +2143,11 @@ header{
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
+.body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
 
 
