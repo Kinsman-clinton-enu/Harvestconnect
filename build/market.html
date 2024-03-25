@@ -10,7 +10,9 @@
       href="./img/vegetarian_mark_48px.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/market.css">
 </head>
 <body class="pt-44 pb-20 market-body m-body font-sans dark:text-white dark:bg-black">
@@ -94,7 +96,7 @@
                 <li class="hidden sm:block"><select class="bg-transparent">
                     <option value="">Buyer Central</option>
                 </select></li>
-                <li><select class="bg-transparent"><option value="">Sell on Harvest.com</option></select></li>
+                <li class="hidden sm:block"><select class="bg-transparent"><option value="">Sell on Harvest.com</option></select></li>
                 <li><select class="bg-transparent" name="" id=""><option>Help</option></select></li>
         </ul>
     </nav>
@@ -103,7 +105,7 @@
   </header>
 
   <main class="main-content ml-0 container">
-    <nav class="sidebar hidden sm:block p-2">
+    <aside class="sidebar hidden sm:block p-2">
       <h2 class="font-bold mb-5">Filter</h2>
       <div class="mb-5">
         <h3 class="font-bold">Categories</h3>
@@ -123,7 +125,7 @@
           <p>30000</p>
         </div>
       </div>
-    </nav>
+    </aside>
     <div class="carts-grid">
       
          
@@ -131,15 +133,15 @@
     <div class="mobile-grid hidden">
       <div class="vegetable
       s">
-       <h2 class="ml-10 text-2xl">Vegetables</h2>
+       <h2 class="ml-10 text-xl italic p-2 inline-block">Vegetables</h2>
       <div class="hidden grid-1 gap-x-4 items-center mx-auto overflow-x-auto p-5"></div>
       </div>
       <div class="fruits">
-       <h2 class="ml-10 text-2xl">Fruits</h2>
+       <h2 class="ml-10 italic text-2xl">Fruits</h2>
        <div class="hidden grid-2 gap-x-4 items-center mx-auto overflow-x-auto p-5"></di>
       </div>
       <div class="Food">
-       <h2 class="ml-10 text-2xl">Food</h2>
+       <h2 class="ml-10 italics text-2xl">Food</h2>
        <div class="hidden grid-3 gap-x-4 items-center mx-auto overflow-x-auto p-5"></di>
       </div>
     </div>
@@ -150,9 +152,9 @@
   
   
 
-  <footer class="sm:hidden fixed left-0 right-0 p-2 bottom-0 bg-white dark:bg-gray-700  z-10 ">
+  <footer class="sm:hidden fixed left-0 right-0 p-2 bottom-0 bg-slate-50  dark:bg-gray-700  z-10 ">
     <nav class="flex justify-evenly">
-      <div class="dark:text-white text-black">
+      <div class="dark:text-white text-black ">
         <a href="homepage.html"
           ><img
             class="w-5 h-5 ml-3 hover:text-green-400-500"

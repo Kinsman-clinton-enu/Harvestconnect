@@ -35,6 +35,9 @@ module.exports = {
       },
       right: {
         '60' : '250px'
+      },
+      paddingTop :{
+        '42' : '168px'
       }
     },
   },
